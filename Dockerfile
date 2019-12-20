@@ -1,6 +1,6 @@
 FROM node:alpine AS builder
 
-WORKDIR /enad-frontend
+WORKDIR /app
 
 COPY . .
 
