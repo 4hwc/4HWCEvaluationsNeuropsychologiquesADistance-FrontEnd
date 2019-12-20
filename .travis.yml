@@ -23,5 +23,7 @@ services:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login  -u "$DOCKER_USERNAME" --password-stdin
-  - if [ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST = "false" ]; then docker push index.docker.io:443/v1/4hwc/enad-frontend:latest; fi
+  #- if [ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST = "false" ]; then docker push index.docker.io:443/v1/4hwc/enad-frontend:latest; fi
+  - docker build -t index.docker.io:443/v1/4hwc/enad-frontend:latest
+  - docker push index.docker.io:443/v1/4hwc/enad-frontend:latest
 
