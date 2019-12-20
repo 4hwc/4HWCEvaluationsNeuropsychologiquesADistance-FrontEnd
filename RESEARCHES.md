@@ -17,3 +17,13 @@ https://itnext.io/how-to-deploy-angular-application-to-heroku-1d56e09c5147
 https://blog.angular-university.io/getting-started-with-angular-setup-a-development-environment-with-yarn-the-angular-cli-setup-an-ide/
 
 https://mherman.org/blog/dockerizing-an-angular-app/
+
+# how to know the registry ofa docker repository
+
+https://www.google.com/search?q=how+to+know+the+registry+ofa+docker+repository&oq=how+to+know+the+registry+ofa+docker+repository&aqs=chrome..69i57j33.22713j0j7&sourceid=chrome&ie=UTF-8
+
+https://docs.docker.com/engine/reference/commandline/registry_ls/
+
+https://docs.docker.com/registry/
+
+
