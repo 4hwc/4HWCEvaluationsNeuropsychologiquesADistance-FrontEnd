@@ -26,4 +26,10 @@ https://docs.docker.com/engine/reference/commandline/registry_ls/
 
 https://docs.docker.com/registry/
 
+# The push refers to repository [index.docker.io:443/v1/4hwc/enad-frontend] An image does not exist locally with the tag: index.docker.io:443/v1/4hwc/enad-frontend
+
+https://www.google.com/search?q=The+push+refers+to+repository+%5Bindex.docker.io%3A443%2Fv1%2F4hwc%2Fenad-frontend%5D+An+image+does+not+exist+locally+with+the+tag%3A+index.docker.io%3A443%2Fv1%2F4hwc%2Fenad-frontend&oq=The+push+refers+to+repository+%5Bindex.docker.io%3A443%2Fv1%2F4hwc%2Fenad-frontend%5D+An+image+does+not+exist+locally+with+the+tag%3A+index.docker.io%3A443%2Fv1%2F4hwc%2Fenad-frontend&aqs=chrome..69i57.2769j0j7&sourceid=chrome&ie=UTF-8
+
+https://forums.docker.com/t/the-push-refers-to-a-repository/24026/5
+
 
