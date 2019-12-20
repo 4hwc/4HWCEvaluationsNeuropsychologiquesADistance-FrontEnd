@@ -2,26 +2,26 @@ language: node_js
 node_js:
   - node
 addons:
-apt:
-  sources:
-    - google-chrome
-  packages:
-    - google-chrome-stable
-    - google-chrome-beta
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
 
+cache:
+  directories:
+    - ./node_modules
+
+install:
+  - npm install
+
+script:
+  - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
 services:
   - docker
-
-before_install:
-  
-  - yarn global add @angular/cli
-  - export CHROME_BIN=chromium-browser
-  - export DISPLAY=:99.0
-  
-script:
-  - yarn test --watch=false 
 
 after_success:
   - sudo docker login --username $HEROKU_DOCKER_USERNAME --password $HEROKU_AUTH_TOKEN registry.heroku.com
   - sudo docker tag enad-frontend:latest registry.heroku.com/enad-frontend/web
   - if [ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST = "false" ]; then sudo docker push registry.heroku.com/enad-frontend/web; fi
+
