@@ -15,3 +15,5 @@ https://www.codementor.io/@yomateo/angular-docker-dockerize-your-app-in-5-minute
 https://itnext.io/how-to-deploy-angular-application-to-heroku-1d56e09c5147
 
 https://blog.angular-university.io/getting-started-with-angular-setup-a-development-environment-with-yarn-the-angular-cli-setup-an-ide/
+
+https://mherman.org/blog/dockerizing-an-angular-app/
