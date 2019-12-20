@@ -32,4 +32,10 @@ https://www.google.com/search?q=The+push+refers+to+repository+%5Bindex.docker.io
 
 https://forums.docker.com/t/the-push-refers-to-a-repository/24026/5
 
+# "docker build" requires exactly 1 argument. See 'docker build --help'.
+
+https://www.google.com/search?q=%22docker+build%22+requires+exactly+1+argument.+See+%27docker+build+--help%27.&oq=%22docker+build%22+requires+exactly+1+argument.+See+%27docker+build+--help%27.&aqs=chrome..69i57.970j0j7&sourceid=chrome&ie=UTF-8
+
+https://stackoverflow.com/questions/28996907/docker-build-requires-1-argument-see-docker-build-help
+
 
