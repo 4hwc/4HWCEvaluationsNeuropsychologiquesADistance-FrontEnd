@@ -1,6 +1,8 @@
 
 # Evaluations_Neuropsychologiques_A_Distance - FrontEnd
 
+[![Build Status](https://travis-ci.com/4hwc/4HWCEvaluationsNeuropsychologiquesADistance-FrontEnd.svg)](https://travis-ci.com/4hwc/4HWCEvaluationsNeuropsychologiquesADistance-FrontEnd)
+
 # EnadFrontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
