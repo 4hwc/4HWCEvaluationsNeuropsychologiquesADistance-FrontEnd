@@ -21,14 +21,14 @@ script:
 services:
   - docker
 
-#after_success:
-  #- echo "$DOCKER_PASSWORD" | docker login  -u "$DOCKER_USERNAME" --password-stdin
-  #- if [ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST = "false" ]; then docker push index.docker.io:443/v1/4hwc/enad-frontend:latest; fi
-  #- docker build -t 4hwc/enad-frontend:latest .
-  #- docker push 4hwc/enad-frontend:latest
-
 after_success:
-  - docker login --username $HEROKU_DOCKER_USERNAME --password $HEROKU_AUTH_TOKEN registry.heroku.com
-  - docker build -t registry.heroku.com/enad-frontend/web:latest .
-  - docker push registry.heroku.com/enad-frontend/web:latest
+  - echo "$DOCKER_PASSWORD" | docker login  -u "$DOCKER_USERNAME" --password-stdin
+  #- if [ $TRAVIS_BRANCH == "master" ] && [ $TRAVIS_PULL_REQUEST = "false" ]; then docker push index.docker.io:443/v1/4hwc/enad-frontend:latest; fi
+  - docker build -t 4hwc/enad-frontend:latest .
+  - docker push 4hwc/enad-frontend:latest
+
+#after_success:
+  #- docker login --username $HEROKU_DOCKER_USERNAME --password $HEROKU_AUTH_TOKEN registry.heroku.com
+  #- docker build -t registry.heroku.com/enad-frontend/web:latest .
+  #- docker push registry.heroku.com/enad-frontend/web:latest
 
