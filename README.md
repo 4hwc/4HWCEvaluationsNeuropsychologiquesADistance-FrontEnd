@@ -4,6 +4,15 @@
 [![Build Status](https://travis-ci.com/4hwc/4HWCEvaluationsNeuropsychologiquesADistance-FrontEnd.svg)](https://travis-ci.com/4hwc/4HWCEvaluationsNeuropsychologiquesADistance-FrontEnd)
 [![docker build](https://img.shields.io/docker/cloud/build/4hwc/enad-frontend)](https://hub.docker.com/repository/docker/4hwc/enad-frontend)
 
+## Main
+
+https://github.com/4hwc/4HWCEvaluationsNeuropsychologiquesADistance
+
+
+## BackEnd
+
+https://github.com/4hwc/4HWCEvaluationsNeuropsychologiquesADistance-BackEnd
+
 # EnadFrontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
@@ -32,15 +41,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-
-## Main
-
-https://github.com/4hwc/4HWCEvaluationsNeuropsychologiquesADistance
-
-
-## BackEnd
-
-https://github.com/4hwc/4HWCEvaluationsNeuropsychologiquesADistance-BackEnd
 
 
 ENAD (Evaluations Neuropsychologiques A Distance)
